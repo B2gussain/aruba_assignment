@@ -8,8 +8,7 @@ const App = () => {
 
     return (
         // full height
-        <div className="h-dvh flex items-center justify-center bg-gradient-to-tr from-[white] via-[#B9DCE0] to-[#1DB390]">
-            
+        <div className="h-dvh relative flex items-center justify-center bg-gradient-to-tr from-[white] via-[#B9DCE0] to-[#1DB390]">
             {/* card */}
             <div className="text-black bg-[white] shadow-2xl p-8 w-[90%] max-w-md transition-all duration-500">
                 
