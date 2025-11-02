@@ -1,6 +1,6 @@
 import { Eye, EyeOff } from "lucide-react";
 import React, { useState } from "react";
-import Welcome from "./welcome"; 
+import Welcome from "./Welcome"; 
 
 const Signup = () => {
   const [formData, setFormData] = useState({

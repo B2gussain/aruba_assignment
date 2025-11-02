@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { EyeOff, Eye } from "lucide-react";
-import Welcome from "./welcome";
+import Welcome from "./Welcome";
 
 const Login = () => {
   const [data, setData] = useState({ email: "", password: "" });
