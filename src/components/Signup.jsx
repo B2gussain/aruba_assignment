@@ -1,6 +1,6 @@
 import { Eye, EyeOff } from "lucide-react";
 import React, { useState } from "react";
-import Welcome from "./welcome"; // ✅ import your success popup
+import Welcome from "./welcome"; 
 
 const Signup = () => {
   const [formData, setFormData] = useState({
@@ -12,7 +12,7 @@ const Signup = () => {
   const [errors, setErrors] = useState({});
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
-  const [showWelcome, setShowWelcome] = useState(false); // 👈 to control success popup
+  const [showWelcome, setShowWelcome] = useState(false); 
 
   const validateEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
